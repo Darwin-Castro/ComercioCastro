@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Universidad Ecuador</title>
+<style>
+    body {
+        font-family: 'Arial';
+        margin: 0;
+        padding: 0;
+        background-color;
+    }
+    header {
+        background-color: #2c3e50;
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-size: 28px;
+        margin: 0;
+        color: #ecf0f1;
+    }
+    header p {
+        font-size: 14px;
+        color: #bdc3c7;
+        margin: 5px 0 0;
+    }
+    header img {
+        height: 60px;
+        margin-left: 20px;
+    }
+    .banner {
+        background-color: #34495e;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .banner h2 {
+        margin: 0;
+    }
+    .banner p {
+        margin: 10px 0 0;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    main {
+        display: flex;
+        margin: 20px;
+    }
+    nav {
+        background-color: #ecf0f1;
+        padding: 20px;
+        width: 30%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin-right: 20px;
+        border: 1px solid #bdc3c7;
+    }
+    nav a {
+        display: block;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    section {
+        padding: 20px;
+        width: 70%;
+    }
+    section h3 {
+        font-size: 22px;
+        color: #2c3e50;
+        margin-top: 0;
+    }
+    section p {
+        font-size: 16px;
+        color: #7f8c8d;
+        line-height: 1.6;
+    }
+    footer {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <h1>Universidad Ecuador</h1>
+        <p>Educación, Innovación y Desarrollo</p>
+        <p>Impulsando el progreso académico y científico en la Comunidad Andina.</p>
+    </div>
+        <img src="data:image/jpeg;base64,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" alt="Monumeto de Universidad">
+</header>
+    <div class="banner">
+        <h2>Unidos por la Educación Andina</h2>
+        <p>Fortaleciendo la cooperación académica entre los países de la región.</p>
+    </div>
+    <main>
+    <nav>
+        <a href="https://www.utmachala.edu.ec/portalwp/index.php/uacs/">Programas de Grado</a>
+        <a href="https://www.utmachala.edu.ec/portalwp/index.php/2022/03/25/utmach-tiene-en-ejecucion-146-proyectos-de-investigacion/">Investigación</a>
+        <a href="https://www.utmachala.edu.ec/portalwp/index.php/2022/03/07/utmach-43-proyectos-buscan-aprobacion-de-la-direccion-de-investigacion-para-2022/">Proyectos Académicos</a>
+        <a href="https://www.utmachala.edu.ec/portalwp/index.php/2021/10/19/ii-seminario-internacional-de-ciencias-de-la-actividad-fisica-y-deporte-adaptado-cafidea-2021/">Eventos y Seminarios</a>
+    </nav>
+    <section>
+        <h3>Acerca de Ecuador</h3>
+        <p>
+        Ecuador es un país con una gran diversidad geográfica y cultural. Su sistema educativo se caracteriza por una fuerte colaboración con universidades de la región andina, impulsando el desarrollo académico, científico y tecnológico. Quito, la capital, alberga diversas universidades de prestigio que participan activamente en proyectos de investigación, mientras que Guayaquil, en la costa, es un importante centro para la innovación y la educación superior.
+        </p>
+    </section>
+    </main>
+    <footer>
+        <p>© 2024 Universidad Ecuador - Todos los derechos reservados</p>
+        <p>Machala - El Oro - Ecuador</p>
+    </footer>
+</body>
+</html>
